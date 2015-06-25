@@ -6,4 +6,9 @@ module.exports = {
 			cb(body.split("\n")[0]);
         });
     }
+    lookup: function(url, cb) {
+        request('http://is.gd/forward.php?shorturl=' + url, function (error, response, body) {
+			cb(body.split("\n")[0]);
+        });
+    }
 };

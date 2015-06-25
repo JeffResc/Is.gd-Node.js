@@ -16,6 +16,10 @@ var isgd = require('isgd');
 isgd.shorten('http://google.com', function(res) {
 	console.log(res); //Returns a shorter version of http://google.com - http://is.gd/OwycZW
 });
+
+isgd.lookup('http://is.gd/OwycZW', function(res) {
+	console.log(res); //Returns a longer version of http://is.gd/OwycZW - http://google.com
+});
 ```
 
 [This Package Is Under The GPL-3.0 License](https://raw.githubusercontent.com/AlphaT3ch/is.gd/master/LICENSE.txt)
