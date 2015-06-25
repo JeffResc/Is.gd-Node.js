@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/isgd.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/isgd/)
+
 # Is.gd
 [http://is.gd](http://is.gd) URL Shortener Node.js Module
 

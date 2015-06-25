@@ -1,6 +1,6 @@
 {
   "name": "isgd",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "http://is.gd URL Shortener Node.js Module",
   "main": "index.js",
   "dependencies": {
