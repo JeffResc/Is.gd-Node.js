@@ -1,6 +1,6 @@
 {
   "name": "isgd",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "http://is.gd URL Shortener Node.js Module",
   "main": "index.js",
   "dependencies": {
@@ -34,5 +34,5 @@
   },
   "homepage": "https://github.com/AlphaT3ch/is.gd",
   "readmeFile": "README.md",
-  "license": "GPL-3.0"
+  "license": "ISC"
 }
