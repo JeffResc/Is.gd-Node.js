@@ -11,11 +11,15 @@ First run ```npm install isgd``` to install the Is.gd package to your system.
 var isgd = require('isgd');
 
 isgd.shorten('http://google.com', function(res) {
-	console.log(res); //Returns a shorter version of http://google.com - http://is.gd/OwycZW
+	console.log(res); // Returns a shorter version of http://google.com - http://is.gd/OwycZW
+});
+
+isgd.custom('http://google.com', 'MyGoogleShortcut', function(res) {
+	console.log(res); // If the custom URL of MyGoogleShortcut is actually available, it should return http://is.gd/MyGoogleShortcut
 });
 
 isgd.lookup('http://is.gd/OwycZW', function(res) {
-	console.log(res); //Returns a longer version of http://is.gd/OwycZW - http://google.com
+	console.log(res); // Returns a longer version of http://is.gd/OwycZW - http://google.com
 });
 ```
 
