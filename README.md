@@ -1,6 +1,6 @@
 [![NPM](https://nodei.co/npm/isgd.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.com/package/isgd/)
 
-# Is.gd [![Build Status](https://travis-ci.org/AlphaT3ch/isgd.svg?branch=master)](https://travis-ci.org/AlphaT3ch/is.gd)
+# Is.gd [![Build Status](https://travis-ci.org/AlphaT3ch/is.gd.svg?branch=master)](https://travis-ci.org/AlphaT3ch/is.gd)
 [http://is.gd](http://is.gd) URL Shortener Node.js Module
 
 Example Shorten:
