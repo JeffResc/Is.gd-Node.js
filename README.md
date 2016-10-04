@@ -1,6 +1,6 @@
 [![NPM](https://nodei.co/npm/isgd.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.com/package/isgd/)
 
-# Is.gd
+# Is.gd [![Build Status](https://travis-ci.org/AlphaT3ch/isgd.svg?branch=master)](https://travis-ci.org/AlphaT3ch/is.gd)
 [http://is.gd](http://is.gd) URL Shortener Node.js Module
 
 Example Shorten:
@@ -23,4 +23,4 @@ isgd.lookup('http://is.gd/OwycZW', function(res) {
 });
 ```
 
-[This Package Is Under The GPL-3.0 License](https://raw.githubusercontent.com/AlphaT3ch/is.gd/master/LICENSE.txt)
+[This Package Is Under The MIT License](https://raw.githubusercontent.com/AlphaT3ch/is.gd/master/LICENSE.txt)
