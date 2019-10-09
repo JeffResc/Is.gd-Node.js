@@ -21,5 +21,14 @@ module.exports = {
             res.on('data', function(chunk) { body += chunk; });
             res.on('end', function() { cb(body); });
         });
+    },
+    decode: function(url, cb){
+        https.get(url, function(res){
+            var loc = res.headers["location"];    
+            if(loc === undefined)
+                cb(url);
+            else
+                cb(loc);
+        });
     }
 };
