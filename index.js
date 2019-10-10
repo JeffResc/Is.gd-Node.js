@@ -24,7 +24,7 @@ module.exports = {
     },
     decode: function(url, cb){
         https.get(url, function(res){
-            var loc = res.headers["location"];    
+            var loc = res.headers.location;    
             if(loc === undefined)
                 cb(url);
             else

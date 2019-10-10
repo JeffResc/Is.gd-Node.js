@@ -5,7 +5,7 @@ var markdown = require('gulp-markdown');
 gulp.task('default', function() {
   gulp.src('./*.js')
     .pipe(jshint())
-    .pipe(jshint.reporter('default'))
+    .pipe(jshint.reporter('default'));
 
   gulp.src('./*.md')
     .pipe(markdown())
